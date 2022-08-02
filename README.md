@@ -1,5 +1,16 @@
 # General Assembly
 
+## Table of contents
+
+1. [Project Overview](README.md#project-2---fruity4you)
+2. [Brief](README.md#brief)
+3. [Technologies](README.md#technologies)
+4. [Personal Contribution](README.md#personal-contribution)
+5. [Displays](README.md#displays)
+6. [Key Learning](README.md#key-learning)
+7. [Future Improvement](README.md#future-improvements)
+
+
 # Project 2 - ‘Fruity4You’
 A React web application providing nutritional information on fruits, plus a user-input fruit-salad maker.  The app queries a public API (FruityVice) using Express.js for nutritional content for the frontend website. My personal contribution consisted of building the fruit info pages and designing and implementing the styling using SASS.
 
@@ -20,14 +31,14 @@ Node.js | Express.js | JavaScript | Axios | React.js | React Hooks | SASS
 * **React.js** & **React hooks** were used to provide the basic structure of the frontend, calling data using **axios** GET-, POST-, PUT- & DELETE- requests updating state using useEffect() & useState() hooks
 * **SASS** was used for styling throughout
 
-## Personal contribution
+## Personal Contribution
 * **Site vision:** Searching through a range of publicly available APIs, we decided upon FruityVice nutritional information API for its well-structured data objects. We envisaged providing, not only the nutritional info on each fruit, but a fruit salad (& originally a fruit smoothie) user-input option, which would allow users to select a variety of fruits and calculate the nutritional information for their own fruit salad.
 
 * **FruitShow page:** A simple page presenting nutritional information of an individually selected fruit. The user is directed to this page when selecting from an index of fruits. The code employs the useParams() react-router-dom function, to identify the selected fruit according to the route link and maps through the API data array to find the given fruit and provide relevant nutritional information. The React functions useEffect() and useState() are used to make the axios request awaiting the data before loading the page information. The fruit.name is used to import a correspondingly named image of the identified fruit using a template literal image url structure.
 
 * **Styling:** We wanted the website to be fun, engaging and look fresh. Fresh fruity colours were selected for the fonts and general colouring. I created unique scss variables for consistency across the site. I also selected a range of high-resolution, consistently-styled fruits background images, to give a consistent fun and fresh feeling across the site.
 
-* **Fruit slot machine:** For the styling on the ‘Salad Maker’ page, we opted for making a fruit slot machine alongside the user-selected input, devised as a play on the commonly used ‘fruit machine’ slang. An image of a typical slot machine was embedded on the left half of the page, with the central slot windows blanked out. As the user selects 3 fruits from the salad maker dropdown list, images of the selected fruits appear in the slot windows, so that the user is able to visualise their fruit salad.
+* **Fruit slot machine:** Collaborative contribution with Jack and Yuanmeng. For the styling on the ‘Salad Maker’ page, we opted for making a fruit slot machine alongside the user-selected input, devised as a play on the commonly used ‘fruit machine’ slang. An image of a typical slot machine was embedded on the left half of the page, with the central slot windows blanked out. As the user selects 3 fruits from the salad maker dropdown list, images of the selected fruits appear in the slot windows, so that the user is able to visualise their fruit salad.
 
 ## Displays
 * **Landing page (above):** A deliciously bright image of a range of fruits was selected for the landing page in order to draw the attention in and make the mouth water. The red navigation bar and buttons complement the colours within the image. White font and a slight border around the text box make the text pop out, whilst retaining the focus of the attention on the fruity background.
@@ -50,8 +61,7 @@ Node.js | Express.js | JavaScript | Axios | React.js | React Hooks | SASS
 * Embedded learning of Node.js, React.js & JavaScript for backend
 * Embedded learning of querying a publicly-available APIs using React hooks and axios requests.
 * My major point of learning was in using SCSS, to create a consistent theme across the website using classes & unique variables.
-## Challenges
-* No major challenges were experienced in this project.
+
 ## Future improvements
 * We had originally envisaged creating a fruit-smoothie maker option, which I think would be a beneficial addition given the popular trend for smoothies
 * Add a mobile-friendly version
